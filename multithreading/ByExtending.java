@@ -1,4 +1,4 @@
-package Mulitthreading;/*   Created by IntelliJ IDEA.
+package multithreading;/*   Created by IntelliJ IDEA.
  *   Author: Hemant Mudgal
  *   Date: 08-03-2022
  *   Time: 02:56

@@ -5,7 +5,7 @@
  *   File: ByImplementingThreadRunnable.java
  */
 
-package Mulitthreading;
+package multithreading;
 
 public class ByImplementingThreadRunnable {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@
  *   File: FactorialUsingMultithreading.java
  */
 
-package Mulitthreading;
+package multithreading;
 
 import java.math.BigInteger;
 
