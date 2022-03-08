@@ -1,8 +1,8 @@
-/*   Created by IntelliJ IDEA.
+package syncronization;/*   Created by IntelliJ IDEA.
  *   Author: Hemant Mudgal
  *   Date: 08-03-2022
  *   Time: 03:08
- *   File: BankSynchronization.java
+ *   File: syncronization.BankSynchronization.java
  */
 
 public class BankSynchronization {
@@ -49,7 +49,7 @@ public class BankSynchronization {
         }
 
         private void deposite() {
-            synchronized (Bank.class) { // Bank.class at the class level and this.obj is object level synchronization
+            synchronized (Bank.class) { // syncronization.Bank.class at the class level and this.obj is object level synchronization
                 System.out.println("I am in " + currentThread().getName());
                 this.obj.setBalance(this.obj.getBalance() + this.amount);
                 try {

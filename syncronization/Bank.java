@@ -1,8 +1,8 @@
-/*   Created by IntelliJ IDEA.
+package syncronization;/*   Created by IntelliJ IDEA.
  *   Author: Hemant Mudgal
  *   Date: 08-03-2022
  *   Time: 03:06
- *   File: Bank.java
+ *   File: syncronization.Bank.java
  */
 
 public class Bank {
