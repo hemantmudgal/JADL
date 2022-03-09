@@ -1,18 +1,21 @@
 /*   Created by IntelliJ IDEA.
  *   Author: Hemant Mudgal
  *   Date: 09-03-2022
- *   Time: 09:28
- *   File: Client.java
+ *   Time: 14:43
+ *   File: Client2.java
  */
 
 package socketProgramming;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Client {
-    public static void main(String[] args) throws IOException{
+public class Client2 {
+    public static void main(String[] args) throws IOException {
         Socket socket = new Socket("localhost",4001);
         System.out.println("Server Connected");
 
